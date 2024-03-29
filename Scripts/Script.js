@@ -1,22 +1,18 @@
 
-function getName() {
-  let name = document.getElementById("input-name");
-}
-
-
-function polindromDetecter(n) {
+function polindromDetecter() {
+  let name = document.getElementById("input-name").value;
   let Array_name = [];
-  Array_name = n.split("").reverse().join("");
+  Array_name = name.split("").reverse().join("");
 
-
-  if (Array_name == n) {
-    document.write("The name is a polindrom");
+  if (Array_name == name) {
+    document.getElementById('')
+    //alert("The name is a polindrom");
   }else {
-    document.writes("Tne name is not a polindrom");
+    
+    //alert("Tne name is not a polindrom");
   }
 }
 
-polindromDetecter(name);
 
 
 
